@@ -7,16 +7,20 @@ import { reverseString } from './main.js';
 import jest from 'jest';
 
 // write a test in order to check the following ;
-//1- Given a string, write a function that reverses the string
+//1- Given a string, write a function that reverses the string-- complete
 
 describe('reverseString', () => {
   test('given a string, jest will test that it has been reversed by the provided function', () => {
     //arrange
-    const word = 'olleh';
-    const expected = 'hello';
+    const word = 'reve maet tseb';
+    const expected = 'best team ever';
     //act
     const actual = reverseString(word);
     //assert
     expect(actual).toBe(expected);
   });
+  test();
 });
+
+/*
+2- Create a jest test that test for the given strings to be put in an array*/
