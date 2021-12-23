@@ -1,21 +1,15 @@
 /* 
-👉 Write your kata here!
+
+👉 Mission:
+Decipher the code of the amazing people that made this code. It will not be an easy task to complete...
+But... we hear mere mortals can eventually figure it out. 
+
 1- Given a string, write a function that reverses the string
 1 -Eg:
 hello = olleh
 brum = murb
-
-2- Given the reversed strings, create an array that hosts the newly found strings
-2- Eg:
-[olleh, murb]
-
 */
 
-//👉 Write the function your CodeWarriors will start with below here:
-
 export function reverseString(word) {
-  const reversing = word.split('').reverse().join('');
-  console.log(reversing);
-  return reversing;
+  // your code goes here
 }
-//console.log(reverseString('best team ever'));

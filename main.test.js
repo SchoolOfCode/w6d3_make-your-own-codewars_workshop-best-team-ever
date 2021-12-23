@@ -21,6 +21,3 @@ describe('reverseString', () => {
   });
   test();
 });
-
-/*
-2- Create a jest test that test for the given strings to be put in an array*/
